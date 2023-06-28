@@ -1,0 +1,145 @@
+<section>   <div class="About"> 
+
+        <h1>MAIN PROGRAM</h1>
+        <div class="aboutContainer"> <ul class="Program"><li id="icon"><ion-icon name="school-outline"></ion-icon></li>  
+            <li id="text">Lecture</li>
+            <li id="passage">Pay keen attention to whatever is being taught in the lecture room</li></ul>
+           
+           
+          
+            
+    
+    </div>
+
+
+    </div>
+        
+       </section>
+
+<---Portfolio Names---->
+
+       <div class="SpeakerPort"><ion-icon id="picdec" name="film"></ion-icon>
+        <img src="Images/istockphoto-502581380-612x612.jpg" alt="Black American Speaker">
+        <div class="port" > <span> <b>Seedorf Justin</b> <br> <span class="portTitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor</span> <br><br></span>
+        <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem porro nesciunt, nam corporis culpa nihil vero modi est quod distinctio, expedita blanditi!</span>
+        </div>
+
+    </div>
+
+    <div class="SpeakerPort"><ion-icon id="picdec" name="film"></ion-icon>
+        <img src="Images/istockphoto-615279718-612x612.jpg" alt="Black American Speaker">
+        <div class="port" > <span> <b>Cardy Watson</b> <br> <span class="portTitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor</span> <br><br></span>
+        <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem porro nesciunt, nam corporis culpa nihil vero modi est quod distinctio, expedita blanditi!</span>
+        </div>
+
+    </div>
+
+    <div class="SpeakerPort"><ion-icon id="picdec" name="film"></ion-icon>
+        <img src="Images/portrait-real-black-african-man-260nw-505311127.jpg" alt="Black American Speaker">
+        <div class="port" > <span> <b>Samuel Duodu</b> <br> <span class="portTitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor</span> <br><br></span>
+        <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem porro nesciunt, nam corporis culpa nihil vero modi est quod distinctio, expedita blanditi!</span>
+        </div>
+
+    </div>
+
+
+
+
+    RE
+
+    <nav class="header2">
+        <div class="navbarDesktop">
+            <span>GLCon23'<ion-icon id="naveicon" name="aperture-outline"></ion-icon></span>
+            <ul>
+                <li id="about">About</li>
+                <li>Program</li>
+                <li>Join</li>
+                <li>Sponsor</li>
+                <li>News</li>
+            </ul>
+
+            <button class="navbutt">
+                GLC Compaign
+            </button>
+
+        </div>
+    </nav>
+
+
+
+
+
+
+
+    <nav class="header1">
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+</nav>
+
+
+
+
+
+
+
+
+
+.navbarDesktop {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    width: 100vw;
+    height: 70px;
+    box-shadow: 0px 6px 8px #888888;
+    position: relative;
+    z-index: 10;
+  }
+  
+  .navbarDesktop ul {
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    display: flex;
+    gap: 55px;
+    list-style: none;
+    padding: 25px;
+    color: rgb(83, 80, 80);
+  }
+  
+  #about {
+    color: coral;
+  }
+  
+  .navbarDesktop span {
+    font-family: "Belanosima", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: rgb(134, 127, 124);
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    padding: 10px;
+  }
+  
+  .navbutt {
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    padding: 10px 10px;
+    height: 50px;
+    margin-top: 10px;
+    border: none;
+    color: coral;
+    background-color: white;
+    border: 4.5px solid coral;
+  }
+  
+  #naveicon {
+    font-size: 30px;
+    color: coral;
+    background-color: white;
+  }
+  
