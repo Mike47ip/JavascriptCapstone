@@ -94,13 +94,14 @@ body {
 .navbutt {
   font-family: "Poppins", sans-serif;
   font-size: 13px;
-  padding: 10px 10px;
+  padding: 10px 4px;
   height: 50px;
   margin-top: 10px;
-  border: none;
   color: coral;
   background-color: white;
   border: 4.5px solid coral;
+  right: 1.5%;
+  position: relative;
 }
 
 #naveicon {
@@ -140,12 +141,14 @@ main {
 .homepage {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
+  text-align: center;
   width: 100vw;
-  height: 450px;
+  height: 600px;
   padding-top: 0px;
   background-image: url(Images/backlast.png);
-  background-size: 700px;
+  background-size: cover;
   background-repeat: no-repeat;
   background-color: white;
   z-index: 1;
@@ -164,7 +167,7 @@ main {
 }
 
 .homepage p {
-  padding-top: 60px;
+  padding-top: 40px;
   font-family: "Belanosima", sans-serif;
   font-size: 19px;
   font-weight: 400;
@@ -229,7 +232,7 @@ main {
 }
 
 .About h1 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 17px;
   font-weight: 500;
   display: flex;
@@ -267,7 +270,6 @@ main {
 .Program {
   display: flex;
   flex-direction: row;
-  /* width: 78%; */
   height: auto;
   background: rgba(255, 255, 255, 0.1);
   text-align: center;
@@ -290,17 +292,17 @@ main {
 }
 
 #text {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 18px;
   font-weight: 300;
   text-align: center;
   padding-top: 30px 10px;
   width: 30%;
-  color: rgb(221, 148, 11)
+  color: rgb(221, 148, 11);
 }
 
 #passage {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 13px;
   font-weight: 300;
   text-align: left;
@@ -317,26 +319,28 @@ main {
   background-color: rgb(248, 102, 17);
   text-decoration: none;
   border: 0;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 .Join a {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 18px;
   font-weight: 300;
   text-decoration: none;
   color: white;
-
 }
 
 .featuredSpeakers {
   width: 100vw;
-  height: 590px;
+  height: auto;
+  /* padding: 13px; */
 }
 
 .featuredSpeakers h1 {
   display: flex;
   justify-content: center;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 21px;
   font-weight: 500;
   padding: 50px;
@@ -351,33 +355,25 @@ main {
   width: 159px;
   height: auto;
   z-index: 2;
-
-}
-
-.featuredSpeakers {
-  padding: 20px;
 }
 
 .SpeakerPort {
   display: flex;
   justify-content: center;
   width: 100%;
-  padding: 0 20px;
 }
 
 .port {
   padding: 27px 0 7px 1px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-size: 12.5px;
 }
-
 
 #picdec {
   font-size: 50px;
   width: 50px;
   height: auto;
-  margin-top: -52px;
   margin-right: -45px;
   padding: 0;
   z-index: 1;
@@ -394,27 +390,129 @@ main {
 .seeMore {
   display: flex;
   justify-content: center;
+  border: 1px rgb(29, 23, 23);
 }
 
-.seeMore button {
+.seeMore a {
   background-color: white;
   width: 80%;
   height: 60px;
-  border: none;
   display: flex;
   justify-content: center;
   align-items: center;
   border: 1px solid rgb(214, 209, 209);
-}
-
-.seeMore button a {
-  font-family: 'Poppins', sans-serif;
-  font-size: 21px;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 15px;
   text-decoration: none;
   color: rgb(29, 27, 27);
-  border: 1px rgb(29, 23, 23);
+}
+
+#more-icon {
+  color: coral;
+  font-size: 16px;
+}
+
+#portdash {
+  color: rgb(190, 187, 186);
+}
+
+.hiddenPort {
+  display: none;
+}
+
+.Partners {
+  background-color: #888888;
+  width: 100vw;
+  height: auto;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+.Partners h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 21px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+}
+
+.logoContainer {
+  display: flex;
+ justify-content:center;
+  flex-wrap: wrap;
+  gap: 90px;
+  padding-top:20px;
+}
+
+#partdash {
+  display:flex;
+  justify-content: center;
+  color:coral;
+  font-size: 50px;
+  margin-top: -30px;
+
+}
+
+.logoContainer img:nth-child(1) {
+  width: 150px;
+  height: auto;
+ 
+}
+
+.logoContainer img:nth-child(2) {
+  width: 100px;
+  height: auto;
+}
+
+.logoContainer img:nth-child(3) {
+  width: 100px;
+  height: auto;
+}
+
+.logoContainer img:nth-child(4) {
+  width: 100px;
+  height: auto;
+}
+
+.logoContainer img:nth-child(5) {
+  width: 100px;
+  height: auto;
+}
+
+.footerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.foot {
+ display: flex;
+ justify-content: center;
+ padding: 50px;
+}
+
+#naveicon1 {
+  font-size:36px;
+  color:coral;
+}
+
+.foot span {
+  font-family: "Belanosima", sans-serif;
+  font-weight: 600;
+  font-size: 35px;
+  color: rgb(134, 127, 124);
+  display: flex;
+  align-items: center;
+  justify-content: baseline;
+  padding: 10px;
+}
+
+#footer-date {
+  font-family: "Belanosima", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
 }
 
 
@@ -433,6 +531,38 @@ main {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 392px) {
+  .SpeakerPort {
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .SpeakerPort img {
+    position: relative;
+    left: 20%;
+  }
+
+  #picdec {
+    display: none;
+  }
+}
 
 @media screen and (max-width: 400px) {
   .homepage {
@@ -455,7 +585,6 @@ main {
   .Program {
     padding: 0;
   }
-
 }
 
 @media screen and (max-width: 689px) {
@@ -477,12 +606,15 @@ main {
     display: flex;
   }
 
+  .About {
+    height: 600px;
+  }
+
   .header {
     display: none;
   }
 
   .Program {
-
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
@@ -506,19 +638,17 @@ main {
 
   .aboutContainer {
     display: grid;
-    grid-template-columns: auto auto auto auto auto;
+    grid-template-columns: auto auto auto;
     overflow: hidden;
     width: 100%;
     gap: 10px;
   }
-  
 
   #text {
     padding: 0;
     line-height: 18px;
     padding-top: 2px;
     padding-bottom: 5px;
-   
   }
 
   #passage {
@@ -530,12 +660,42 @@ main {
   #icon {
     padding: 0;
   }
+
+  .homepage h1 {
+    font-size: 50px;
+  }
 }
 
-/* @media screen and (max-width: 965px) {
-.aboutContainer {
-  grid-template-columns: auto auto auto;
-}  
+@media screen and (max-width: 768px) {
+  .featureContainer {
+    padding: 0 65px;
+  }
+}
 
-} */
-  
+@media screen and (min-width: 768px) {
+  .featureContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 5px;
+
+  }
+
+  #picdec {
+    width: 200px;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 965px) {
+  .aboutContainer {
+    grid-template-columns: auto auto auto auto auto;
+  }
+
+  .About {
+    height: 400px;
+  }
+
+  .homepage h1 {
+    font-size: 50px;
+  }
+}
