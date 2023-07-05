@@ -143,3 +143,21 @@
     background-color: white;
   }
   
+
+
+
+
+
+  id: '3',
+  name: 'Lawrence Amoafo',
+  title: 'Prime Minister of United States.',
+  experience: 'He stands gifted as one of the co-founders of Apple with an awesome portfolio in the geopolitical diaspora as well.',
+  picture: 'Images/istockphoto-502581380-612x612.jpg',
+},
+{
+  id: '4',
+  name: 'Afia Odo',
+  title: 'CEO of Tesla Incorperation.',
+  experience: 'She stands out amongst her colleagues as one of the most decorated Engineer in the car industry and others.',
+  picture: 'Images/istockphoto-615279718-612x612.jpg',
+},
