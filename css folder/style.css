@@ -10,7 +10,9 @@
 
 body {
   margin: 0;
+  width: 100vw;
   height: auto;
+  overflow-x: hidden;
 }
 
 .navbarMobile ul {
@@ -19,6 +21,11 @@ body {
   list-style: none;
   padding: 12px;
   box-sizing: border-box;
+}
+
+.Program li {
+  padding: 16px;
+  width: 85%;
 }
 
 .navbarMobile ul li {
@@ -61,7 +68,7 @@ body {
   background-color: white;
   width: 100vw;
   height: 70px;
-  box-shadow: 0px 6px 8px #888888;
+  box-shadow: 0 6px 8px #888;
   position: relative;
   z-index: 3;
 }
@@ -76,9 +83,22 @@ body {
   color: rgb(83, 80, 80);
 }
 
+.Join a {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  text-decoration: none;
+  color: white;
+}
+
 .navbarDesktop ul li a {
   text-decoration: none;
-  color: #888888;
+  color: #888;
+}
+
+.slidingMenu ul li a {
+  text-decoration: none;
+  color: black;
 }
 
 .navbarDesktop ul li a:hover {
@@ -96,7 +116,6 @@ body {
   color: rgb(134, 127, 124);
   display: flex;
   align-items: center;
-  justify-content: baseline;
   padding: 10px;
 }
 
@@ -126,7 +145,7 @@ body {
 }
 
 .header1 {
-  width: 100pvw;
+  width: 100vw;
   height: 27px;
   background-color: rgb(87, 90, 90);
 }
@@ -146,22 +165,15 @@ body {
   cursor: pointer;
 }
 
-main {
-  width: 100%;
-  height: auto;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
 .homepage {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: start;
   text-align: center;
   width: 100vw;
   height: 600px;
-  padding-top: 0px;
+  padding: 0 15px;
   background-image: url('../Images/backlast.png');
   background-size: cover;
   background-repeat: no-repeat;
@@ -170,14 +182,14 @@ main {
 }
 
 .homepage h1 {
-  padding: 0px 20px 0 20px;
+  padding: 0 20px 0 20px;
   font-family: "Belanosima", sans-serif;
   font-size: 35px;
   font-weight: 600;
   color: transparent;
   background-image: url("../Images/noiseporn-JNuKyKXLh8U-unsplash.JPG");
   background-size: cover;
-  background-clip: text;
+  background-clip: content-box;
   -webkit-background-clip: text;
 }
 
@@ -189,18 +201,8 @@ main {
   color: transparent;
   background-image: url("../Images/noiseporn-JNuKyKXLh8U-unsplash.JPG");
   background-size: cover;
-  background-clip: text;
+  background-clip: content-box;
   -webkit-background-clip: text;
-}
-
-.image-container {
-  width: 100%;
-  height: 200px;
-}
-
-.image-container img {
-  width: 100%;
-  height: 200px;
 }
 
 .Statement {
@@ -210,6 +212,7 @@ main {
   margin-top: 35px;
   padding: 20px;
   border-radius: 10px;
+  background: rgba(226, 222, 221, 0.5);
 }
 
 .homedate {
@@ -217,7 +220,6 @@ main {
   font-size: 25px;
   font-weight: 600;
   color: rgb(248, 102, 17);
-  background: rgba(226, 222, 221, 0.5);
   width: 70%;
   height: auto;
   padding: 6px 20px;
@@ -228,8 +230,7 @@ main {
   font-family: "Poppins", sans-serif;
   width: 70%;
   height: auto;
-  font-size: larger;
-  background: rgba(226, 222, 221, 0.5);
+  font-size: 20px;
   padding: 0 20px;
   border-radius: 10px;
   text-align: center;
@@ -292,11 +293,6 @@ main {
   border-radius: 8px;
 }
 
-.Program li {
-  padding: 16px;
-  width: 85%;
-}
-
 #icon {
   font-size: 50px;
   color: antiquewhite;
@@ -311,19 +307,19 @@ main {
   font-size: 18px;
   font-weight: 300;
   text-align: center;
-  padding-top: 30px 10px;
+  padding: 30px 10px;
   width: 30%;
   color: rgb(221, 148, 11);
 }
 
 #passage {
   font-family: "Poppins", sans-serif;
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 300;
   text-align: left;
   width: 56%;
   color: aliceblue;
-  padding-top: 25px 10px;
+  padding: 5px 10px;
   padding-left: 1px;
 }
 
@@ -336,14 +332,6 @@ main {
   border: 0;
   margin-top: 25px;
   margin-bottom: 25px;
-}
-
-.Join a {
-  font-family: "Poppins", sans-serif;
-  font-size: 18px;
-  font-weight: 300;
-  text-decoration: none;
-  color: white;
 }
 
 .featuredSpeakers {
@@ -465,7 +453,7 @@ hr {
 }
 
 .Partners {
-  background-color: #888888;
+  background-color: #888;
   width: 100vw;
   height: auto;
   padding: 20px;
@@ -478,6 +466,10 @@ hr {
   font-weight: 500;
   display: flex;
   justify-content: center;
+}
+
+.closeMenu img {
+  left: 10px;
 }
 
 .logoContainer {
@@ -494,7 +486,6 @@ hr {
   color: coral;
   font-size: 50px;
   margin-top: -30px;
-
 }
 
 .logoContainer img:nth-child(1) {
@@ -546,7 +537,6 @@ hr {
   color: rgb(134, 127, 124);
   display: flex;
   align-items: center;
-  justify-content: baseline;
   padding: 10px;
 }
 
@@ -591,11 +581,6 @@ hr {
   color: white !important;
 }
 
-.slidingMenu ul li a {
-  text-decoration: none;
-  color: black;
-}
-
 .closeMenu {
   display: flex;
   width: 25px;
@@ -603,10 +588,6 @@ hr {
   position: relative;
   right: -30%;
   top: -10%;
-}
-
-.closeMenu img {
-  left: 10px;
 }
 
 .aboutPage {
@@ -641,10 +622,7 @@ hr {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  color: #4d4545
-}
-
-.contactSec {
+  color: #4d4545;
   text-align: center;
 }
 
@@ -669,17 +647,9 @@ hr {
   color: rgb(134, 127, 124);
   display: flex;
   align-items: center;
-  justify-content: baseline;
   padding: 15px;
   border: 1px solid coral;
   margin-top: 15px;
-}
-
-.News h4 {
-  font-family: "Poppins", sans-serif;
-  font-size: 18px;
-  font-weight: 500;
-  padding: 26px;
 }
 
 .customBackground span,
@@ -693,6 +663,13 @@ h4 {
   padding: 5px;
 }
 
+.News h4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 26px;
+}
+
 .customBackground h4 {
   font-size: 19px;
 }
@@ -702,7 +679,6 @@ h4 {
   justify-content: center;
   align-items: center;
   padding-top: 20px;
-
 }
 
 .imageArea1 {
@@ -712,7 +688,8 @@ h4 {
   text-align: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: linear-gradient(0deg, rgba(255, 166, 0, 0.632), rgba(255, 166, 0, 0.604)),
+  background-image:
+    linear-gradient(0deg, rgba(255, 166, 0, 0.632), rgba(255, 166, 0, 0.604)),
     url(../Images/product-school-V8KOZEUTx9E-unsplash.jpg);
   text-decoration: none;
   width: 40%;
@@ -733,7 +710,8 @@ h4 {
   margin: 10px;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: linear-gradient(0deg, rgba(255, 166, 0, 0.632), rgba(255, 166, 0, 0.604)),
+  background-image:
+    linear-gradient(0deg, rgba(255, 166, 0, 0.632), rgba(255, 166, 0, 0.604)),
     url(../Images/product-school-nOvIa_x_tfo-unsplash.jpg);
 }
 
@@ -742,7 +720,7 @@ h4 {
   font-size: 20px;
   font-weight: 500;
   text-decoration: none;
-  color:white;
+  color: white;
 }
 
 .imageArea1 p {
@@ -750,7 +728,7 @@ h4 {
   font-size: 20px;
   font-weight: 500;
   text-decoration: none;
-  color:white;
+  color: white;
 }
 
 @media screen and (max-width: 392px) {
@@ -830,7 +808,6 @@ h4 {
     width: 180px;
     height: 180px;
     padding: 2px;
-    gap: px;
   }
 
   .Program li {
@@ -872,8 +849,6 @@ h4 {
     font-size: 50px;
   }
 
-
-
   .seeLess {
     display: none;
   }
@@ -893,16 +868,16 @@ h4 {
   }
 
   .eventGallary {
-    display:flex;
+    display: flex;
     flex-direction: column;
   }
 
   .imageArea1 {
-    width:80%
+    width: 80%;
   }
 
   .imageArea2 {
-    width:80%
+    width: 80%;
   }
 }
 
@@ -916,7 +891,6 @@ h4 {
   #picdec {
     width: 100px;
   }
-
 }
 
 @media screen and (min-width: 965px) {
