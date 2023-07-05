@@ -161,3 +161,110 @@
   experience: 'She stands out amongst her colleagues as one of the most decorated Engineer in the car industry and others.',
   picture: 'Images/istockphoto-615279718-612x612.jpg',
 },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+HTML FOR FEATUREED Speakers
+
+
+
+             <!-- <div class="SpeakerPort">
+                <ion-icon id="picdec" name="film"></ion-icon> 
+                <img
+                  src="./Images/portrait-real-black-african-man-260nw-505311127.jpg"
+                  alt="Black American Speaker"
+                />
+                <div class="port">
+                  <span>
+                    <b>Samuel Duodu</b> <br />
+                    <span class="portTitle"
+                      >Director of Art Centre Accra, Ghana</span
+                    >
+                    <br /></span
+                  ><br />
+                  <hr />
+                  <br />
+                  <span
+                    >Gifted with the talent of creativity with the art industry with over 20years of service to country and beyond the world</span
+                  >
+                </div>
+              </div>
+
+              <div class="SpeakerPort">
+                <ion-icon id="picdec" name="film"></ion-icon>
+                <img
+                  src="Images/istockphoto-1060680104-612x612.jpg"
+                  alt="African Female Speaker"
+                />
+                <div class="port">
+                  <span>
+                    <b>Anita Ama</b> <br />
+                    <span class="portTitle"
+                      >Minister of Education Nairobi, Kenya</span
+                    >
+                    <br /></span
+                  ><br />
+                  <hr />
+                  <br />
+                  <span
+                    >With a dazzling expertise in the field of Education she has left her mark on the phase of Education as we know it in Africa.</span
+                  >
+                </div>
+              </div>
+
+              <div id="hiddenPort" class="SpeakerPort">
+                <ion-icon id="picdec" name="film"></ion-icon>
+                <img
+                  src="Images/istockphoto-502581380-612x612.jpg"
+                  alt="Black Speaker"
+                />
+                <div class="port">
+                  <span>
+                    <b>Lawrence Amoafo</b> <br />
+                    <span class="portTitle"
+                      >Prime Minister of United States.</span
+                    >
+                    <br /></span
+                  ><br />
+                  <hr />
+                  <br />
+                  <span
+                    >He stands gifted as one of the co-founders of Apple with an awesome portfolio in the geopolitical diaspora as well.</span
+                  >
+                </div>
+              </div>
+
+              <div id="hiddenPort" class="SpeakerPort">
+                <ion-icon id="picdec" name="film"></ion-icon>
+                <img
+                  src="Images/istockphoto-615279718-612x612.jpg"
+                  alt="White Female Speaker"
+                />
+                <div class="port">
+                  <span>
+                    <b>Afia Odo</b> <br />
+                    <span class="portTitle"
+                      >CEO of Tesla Incorperation.</span
+                    >
+                    <br /></span
+                  ><br />
+                  <hr />
+                  <br />
+                  <span
+                    >She stands out amongst her colleagues as one of the most decorated Engineer in the car industry and others.</span
+                  >
+                </div>
+              </div> -->
