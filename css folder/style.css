@@ -710,6 +710,7 @@ h4 {
 .imageArea1:hover {
   background-image: url("../Images/product-school-V8KOZEUTx9E-unsplash.jpg");
 }
+
 .imageArea2 {
   display: flex;
   justify-content: center;
@@ -798,7 +799,7 @@ h4 {
   }
 
   .header1 {
-    display: none;  
+    display: none;
   }
 }
 
@@ -876,7 +877,7 @@ h4 {
   }
 
   #picdec {
-    width: 100px ;
+    width: 100px;
   }
 
   .Partners {
@@ -927,7 +928,7 @@ h4 {
   }
 
   #picdec {
-    width: 150px ;
+    width: 150px;
   }
 
   .homepage h1 {
@@ -936,9 +937,9 @@ h4 {
 }
 
 @media screen and (min-width: 1188px) {
- #picdec {
-  width: 120px;
- }
+  #picdec {
+    width: 120px;
+  }
 }
 
 @media screen and (min-width: 1400px) {
