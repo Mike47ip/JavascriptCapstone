@@ -1,4 +1,4 @@
-# Architectural-Summit
+# GLOBAL LEADERS CONFERENCE
 
 
 <!-- TABLE OF CONTENTS -->
@@ -21,7 +21,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Architectural - Summit] <a name="about-project"></a>
+# 📖 [GLOBAL LEADERS' CONFERENCE] <a name="about-project"></a>
 
 **[Global Leaders' Conference]** is a capstone project done at the end of the each of the Microverse Core Curriculum modules. It is similar to real-world project and it is built with business specifications that will look really nice in a portfolio.
 
@@ -54,7 +54,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Architectural-Summit](https://kwaku28.github.io/architectural-summit/)
+- [GLOBAL LEADERS' CONFERENCE](https://kwaku28.github.io/architectural-summit/)
 
 ## 🚀 Video Presentation <a name="video-presentation"></a>
 

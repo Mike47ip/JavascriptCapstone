@@ -242,7 +242,7 @@ body {
   align-items: center;
   width: 100vw;
   height: 720px;
-  background-image: url(../Images/aboutback.png);
+  background-image: url("../Images/aboutback.png");
   background-repeat: repeat;
   background-color: rgb(44, 40, 40);
 }
@@ -270,7 +270,7 @@ body {
   width: 100vw;
   height: auto;
   padding: 0 20px 0 20px;
-  background-image: url(../Images/aboutback.png);
+  background-image: url("../Images/aboutback.png");
   background-size: 300px;
   background-repeat: repeat;
   background-color: rgb(44, 40, 40);
@@ -334,6 +334,10 @@ body {
   margin-bottom: 25px;
 }
 
+.Join:hover {
+  background-color: rgb(245, 163, 12);
+}
+
 .featuredSpeakers {
   width: 100vw;
   height: auto;
@@ -347,6 +351,10 @@ body {
   font-size: 21px;
   font-weight: 500;
   padding: 50px;
+}
+
+#register {
+  cursor: pointer;
 }
 
 .featureContainer {
@@ -690,7 +698,7 @@ h4 {
   background-repeat: no-repeat;
   background-image:
     linear-gradient(0deg, rgba(255, 166, 0, 0.632), rgba(255, 166, 0, 0.604)),
-    url(../Images/product-school-V8KOZEUTx9E-unsplash.jpg);
+    url("../Images/product-school-V8KOZEUTx9E-unsplash.jpg");
   text-decoration: none;
   width: 40%;
   height: 300px;
@@ -698,6 +706,9 @@ h4 {
   margin: 10px;
 }
 
+.imageArea1:hover {
+  background-image: url("../Images/product-school-V8KOZEUTx9E-unsplash.jpg");
+}
 .imageArea2 {
   display: flex;
   justify-content: center;
@@ -712,7 +723,11 @@ h4 {
   background-repeat: no-repeat;
   background-image:
     linear-gradient(0deg, rgba(255, 166, 0, 0.632), rgba(255, 166, 0, 0.604)),
-    url(../Images/product-school-nOvIa_x_tfo-unsplash.jpg);
+    url("../Images/product-school-nOvIa_x_tfo-unsplash.jpg");
+}
+
+.imageArea2:hover {
+  background-image: url("../Images/product-school-nOvIa_x_tfo-unsplash.jpg");
 }
 
 .imageArea2 p {
@@ -778,11 +793,11 @@ h4 {
   }
 
   .homepage {
-    background-image: url(../Images/istockphoto-1155705366-1024x1024.jpg);
+    background-image: url("../Images/istockphoto-1155705366-1024x1024.jpg");
   }
 
   .header1 {
-    display: none;
+    display: none;  
   }
 }
 
@@ -885,7 +900,11 @@ h4 {
   .featureContainer {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 5px;
+    padding: 7px;
+  }
+
+  .speakerport {
+    padding: 20px;
   }
 
   #picdec {
