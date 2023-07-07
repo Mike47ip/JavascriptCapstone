@@ -54,11 +54,11 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [GLOBAL LEADERS' CONFERENCE](https://kwaku28.github.io/architectural-summit/)
+- [GLOBAL LEADERS' CONFERENCE](https://mike47ip.github.io/JavascriptCapstone/)
 
 ## 🚀 Video Presentation <a name="video-presentation"></a>
 
-- [Loom video](https://www.loom.com/share/4cdfdf9375f54de1a96bdc3ea8a95420)
+- [Loom video](https://www.loom.com/share/bc827495464443b385360bc64d58a696)
 
 <!-- GETTING STARTED -->
 

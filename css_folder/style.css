@@ -909,6 +909,14 @@ h4 {
     padding: 7px;
   }
 
+  .SpeakerPort.hiddenPort {
+    display: flex;
+  }
+
+  .seeMore {
+    display: none;
+  }
+
   .speakerport {
     padding: 20px;
   }
