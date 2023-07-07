@@ -30,7 +30,7 @@ body {
 }
 
 .navbarMobile ul li {
- font-family: 'Lato', sans-serif;;
+  font-family: 'Lato', sans-serif;
   font-weight: 400;
 }
 
@@ -84,7 +84,7 @@ body {
   gap: 55px;
   list-style: none;
   padding: 25px;
-  color: #272A31;
+  color: #272a31;
 }
 
 .Join a {
@@ -153,7 +153,7 @@ body {
   width: 100vw;
   height: 27px;
   background-color: rgb(87, 90, 90);
-   padding-left: 9%;
+  padding-left: 9%;
   padding-right: 9%;
 }
 
@@ -191,7 +191,6 @@ body {
 
 .homepage h1 {
   font-family: 'Lato', sans-serif;
-  font-weight: 700;
   font-size: 50px;
   font-weight: 900;
   color: transparent;
@@ -204,10 +203,9 @@ body {
 .homepage p {
   padding-top: 40px;
   font-family: 'Lato', sans-serif;
-  font-weight: 900;
   font-size: 19px;
   font-weight: 400;
-  color: #EC5242;
+  color: #ec5242;
 }
 
 .Statement {
@@ -224,7 +222,7 @@ body {
   font-family: 'Lato', sans-serif;
   font-size: 25px;
   font-weight: 600;
-  color: #272A31;
+  color: #272a31;
   width: 70%;
   height: auto;
   padding: 6px 20px;
@@ -249,7 +247,7 @@ body {
   height: auto;
   background-image: url("../Images/aboutback.png");
   background-repeat: repeat;
-  background-color: #272A31;
+  background-color: #272a31;
 }
 
 .programContainer h2 {
@@ -260,10 +258,10 @@ body {
   justify-content: center;
   text-align: center;
   color: white;
-   background-image: url("../Images/aboutback.png");
+  background-image: url("../Images/aboutback.png");
   background-size: 300px;
   background-repeat: repeat;
-  background-color: #272A31;
+  background-color: #272a31;
   background-position: 50% 0;
   width: 100%;
   height: 70px;
@@ -282,7 +280,7 @@ body {
   background-image: url("../Images/aboutback.png");
   background-size: 300px;
   background-repeat: repeat;
-  background-color: #272A31;
+  background-color: #272a31;
   background-position: 50% 0;
   border: none;
 }
@@ -306,7 +304,6 @@ body {
 .Program:hover {
   background: rgba(124, 112, 112, 0.1);
   border: 1px solid #fff;
-
 }
 
 #icon {
@@ -343,7 +340,7 @@ body {
   width: 70%;
   height: 80px;
   padding: 10px;
-  background-color: #EC5242;
+  background-color: #ec5242;
   text-decoration: none;
   border: 0;
   margin-top: 25px;
@@ -389,7 +386,7 @@ body {
 }
 
 #featicon {
-  color: #EC5242;
+  color: #ec5242;
 }
 
 .SpeakerPort img {
@@ -421,14 +418,14 @@ body {
   padding: 0;
   z-index: 1;
   margin-top: -157px;
-  color: #EC5242;
+  color: #ec5242;
   object-fit: cover;
 }
 
 .portTitle {
   font-family: 'Lato', sans-serif;
   font-weight: 500;
-  color: #EC5242;
+  color: #ec5242;
   font-style: italic;
 }
 
@@ -481,7 +478,7 @@ body {
 }
 
 #more-icon {
-  color: #EC5242;
+  color: #ec5242;
   font-size: 16px;
 }
 
@@ -502,14 +499,6 @@ hr {
   margin-top: 50px;
 }
 
-.Partners h4 {
-  font-family: 'Lato', sans-serif;
-  font-size: 21px;
-  font-weight: 500;
-  display: flex;
-  justify-content: center;
-}
-
 .closeMenu img {
   left: 10px;
 }
@@ -525,7 +514,7 @@ hr {
 #partdash {
   display: flex;
   justify-content: center;
-  color: #EC5242;
+  color: #ec5242;
   font-size: 50px;
   margin-top: -30px;
 }
@@ -566,10 +555,39 @@ hr {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #272A31;
+  background-color: #272a31;
   margin-top: 80px;
   text-align: center;
   height: 170px;
+}
+
+.foot span {
+  font-family: "Belanosima", sans-serif;
+  font-weight: 600;
+  font-size: 35px;
+  color: rgb(134, 127, 124);
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.customBackground span,
+h4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  padding: 12px;
+}
+
+.Partners h4 {
+  font-family: 'Lato', sans-serif;
+  font-size: 21px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
 }
 
 .footerContainerAbout div span {
@@ -597,27 +615,17 @@ hr {
 
 #naveicon1 {
   font-size: 36px;
-  color: #EC5242;
+  color: #ec5242;
 }
 
 #naveicon2 {
   font-size: 55px;
-  color: #EC5242;
+  color: #ec5242;
 }
 
 #naveicon3 {
   font-size: 36px;
   color: white;
-}
-
-.foot span {
-  font-family: "Belanosima", sans-serif;
-  font-weight: 600;
-  font-size: 35px;
-  color: rgb(134, 127, 124);
-  display: flex;
-  align-items: center;
-  padding: 10px;
 }
 
 #footer-date {
@@ -657,7 +665,7 @@ hr {
 }
 
 .slidingMenu ul li:hover {
-  background-color: #EC5242;
+  background-color: #ec5242;
   color: white !important;
 }
 
@@ -678,7 +686,6 @@ hr {
 
 .aboutPage h2 {
   font-family: 'Lato', sans-serif;
-  font-weight: 700;
   font-size: 50px;
   font-weight: 900;
   color: transparent;
@@ -736,7 +743,7 @@ hr {
   display: flex;
   align-items: center;
   padding: 15px;
-  border: 1px solid #EC5242;
+  border: 1px solid #ec5242;
   margin-top: 15px;
 }
 
@@ -755,17 +762,6 @@ hr {
   background-image: url("../Images/Hero.png");
   background-repeat: repeat;
   background-size: cover;
-}
-
-.customBackground span,
-h4 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  padding: 12px;
 }
 
 .News h3 {
@@ -910,7 +906,7 @@ h4 {
   }
 
   .venue {
-    color: #EC5242;
+    color: #ec5242;
     background: rgba(253, 251, 251, 0.85);
   }
 
@@ -994,7 +990,6 @@ h4 {
 
   .homepage h1 {
     font-family: 'Lato', sans-serif;
-    font-weight: 700;
     font-size: 37px;
     font-weight: 900;
     color: transparent;
@@ -1003,7 +998,7 @@ h4 {
     background-clip: content-box;
     -webkit-background-clip: text;
   }
-  
+
   #picdec {
     width: 100px;
   }
