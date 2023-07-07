@@ -649,7 +649,6 @@ hr {
   border: 1px solid #d3d3d3;
   width: 65%;
   margin-left: 20%;
-
 }
 
 .contactSec {
@@ -660,8 +659,11 @@ hr {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  text-align: center !important;
   color: #4d4545;
-  text-align: center;
+  width: 70%;
+  padding: 20px;
+  margin-left: 16%;
 }
 
 .News {
