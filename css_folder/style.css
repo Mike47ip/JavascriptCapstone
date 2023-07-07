@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600&family=Inter:wght@300;400;600;700;800;900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:wght@500;600;700&family=Roboto:wght@400;500;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600&family=Inter:wght@300;400;600;700;800;900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:wght@500;600;700&family=Roboto:wght@400;500;700;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600&family=Inter:wght@300;400;600;700;800;900&family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:wght@500;600;700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,400;1,700&display=swap');
 
 * {
   padding: 0;
@@ -29,7 +30,7 @@ body {
 }
 
 .navbarMobile ul li {
-  font-family: "Belanosima", sans-serif;
+ font-family: 'Lato', sans-serif;;
   font-weight: 400;
 }
 
@@ -71,22 +72,25 @@ body {
   box-shadow: 0 6px 8px #888;
   position: relative;
   z-index: 3;
+  padding-left: 9%;
+  padding-right: 9%;
 }
 
 .navbarDesktop ul {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
   font-size: 13px;
   display: flex;
   gap: 55px;
   list-style: none;
   padding: 25px;
-  color: rgb(83, 80, 80);
+  color: #272A31;
 }
 
 .Join a {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
   font-size: 18px;
-  font-weight: 300;
   text-decoration: none;
   color: white;
 }
@@ -120,7 +124,8 @@ body {
 }
 
 .navbutt {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
   font-size: 13px;
   padding: 10px 4px;
   height: 50px;
@@ -148,6 +153,8 @@ body {
   width: 100vw;
   height: 27px;
   background-color: rgb(87, 90, 90);
+   padding-left: 9%;
+  padding-right: 9%;
 }
 
 .header1 ul {
@@ -159,7 +166,8 @@ body {
 }
 
 .header1 ul li {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
   font-size: 12.5px;
   color: white;
   cursor: pointer;
@@ -170,10 +178,10 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: start;
-  text-align: center;
+  text-align: start;
   width: 100vw;
   height: 600px;
-  padding: 0 15px;
+  padding-left: 10%;
   background-image: url('../Images/backlast.png');
   background-size: cover;
   background-repeat: no-repeat;
@@ -182,10 +190,10 @@ body {
 }
 
 .homepage h1 {
-  padding: 0 20px 0 20px;
-  font-family: "Belanosima", sans-serif;
-  font-size: 35px;
-  font-weight: 600;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  font-weight: 900;
   color: transparent;
   background-image: url("../Images/noiseporn-JNuKyKXLh8U-unsplash.JPG");
   background-size: cover;
@@ -195,40 +203,37 @@ body {
 
 .homepage p {
   padding-top: 40px;
-  font-family: "Belanosima", sans-serif;
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
   font-size: 19px;
   font-weight: 400;
-  color: transparent;
-  background-image: url("../Images/noiseporn-JNuKyKXLh8U-unsplash.JPG");
-  background-size: cover;
-  background-clip: content-box;
-  -webkit-background-clip: text;
+  color: #EC5242;
 }
 
 .Statement {
-  font-family: "Belanosima", sans-serif;
-  width: 70%;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  width: 33%;
   height: auto;
-  margin-top: 35px;
-  padding: 20px;
+  padding: 15px;
   border-radius: 10px;
   background: rgba(226, 222, 221, 0.5);
 }
 
 .homedate {
-  font-family: "Belanosima", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 25px;
   font-weight: 600;
-  color: rgb(248, 102, 17);
+  color: #272A31;
   width: 70%;
   height: auto;
   padding: 6px 20px;
-  text-align: center;
+  text-align: start;
 }
 
 .venue {
-  font-family: "Poppins", sans-serif;
-  width: 70%;
+  font-family: 'Lato', sans-serif;
+  font-weight: 600;
   height: auto;
   font-size: 20px;
   padding: 0 20px;
@@ -241,13 +246,13 @@ body {
   flex-direction: column;
   align-items: center;
   width: 100vw;
-  height: 720px;
+  height: auto;
   background-image: url("../Images/aboutback.png");
   background-repeat: repeat;
-  background-color: rgb(44, 40, 40);
+  background-color: #272A31;
 }
 
-.programContainer h1 {
+.programContainer h2 {
   font-family: "Poppins", sans-serif;
   font-size: 17px;
   font-weight: 500;
@@ -255,9 +260,9 @@ body {
   justify-content: center;
   text-align: center;
   color: white;
-  background-color: rgb(44, 40, 40);
+  background-color: #272A31;
   width: 100%;
-  height: 100px;
+  height: 70px;
   padding-top: 37px;
   border: none;
 }
@@ -269,11 +274,11 @@ body {
   align-items: center;
   width: 100vw;
   height: auto;
-  padding: 0 20px 0 20px;
+  padding: 30px 20px 40px 20px;
   background-image: url("../Images/aboutback.png");
   background-size: 300px;
   background-repeat: repeat;
-  background-color: rgb(44, 40, 40);
+  background-color: #272A31;
   background-position: 50% 0;
   border: none;
 }
@@ -289,8 +294,15 @@ body {
   height: auto;
   background: rgba(255, 255, 255, 0.1);
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 11px;
   border-radius: 8px;
+  cursor: pointer;
+}
+
+.Program:hover {
+  background: rgba(124, 112, 112, 0.1);
+  border: 1px solid #fff;
+
 }
 
 #icon {
@@ -339,18 +351,27 @@ body {
 }
 
 .featuredSpeakers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 100vw;
   height: auto;
   padding-bottom: 15px;
 }
 
-.featuredSpeakers h1 {
+.featuredSpeakers h3 {
   display: flex;
   justify-content: center;
   font-family: "Poppins", sans-serif;
   font-size: 21px;
   font-weight: 500;
-  padding: 50px;
+  padding: 50px 50px 8px;
+}
+
+.line {
+  border-bottom: 1px solid #ec5242;
+  width: 70px;
+  margin-bottom: 8px;
 }
 
 #register {
@@ -360,11 +381,11 @@ body {
 .featureContainer {
   display: grid;
   grid-template-columns: 1fr;
-  padding: 5px;
+  padding: 50px 5px 5px 5px;
 }
 
 #featicon {
-  color: coral;
+  color: #EC5242;
 }
 
 .SpeakerPort img {
@@ -396,12 +417,12 @@ body {
   padding: 0;
   z-index: 1;
   margin-top: -157px;
-  color: coral;
+  color: #EC5242;
   object-fit: cover;
 }
 
 .portTitle {
-  color: coral;
+  color: #EC5242;
   font-style: italic;
 }
 
@@ -448,7 +469,7 @@ body {
 }
 
 #more-icon {
-  color: coral;
+  color: #EC5242;
   font-size: 16px;
 }
 
@@ -469,7 +490,7 @@ hr {
   margin-top: 50px;
 }
 
-.Partners h2 {
+.Partners h4 {
   font-family: "Poppins", sans-serif;
   font-size: 21px;
   font-weight: 500;
@@ -492,7 +513,7 @@ hr {
 #partdash {
   display: flex;
   justify-content: center;
-  color: coral;
+  color: #EC5242;
   font-size: 50px;
   margin-top: -30px;
 }
@@ -536,7 +557,7 @@ hr {
 
 #naveicon1 {
   font-size: 36px;
-  color: coral;
+  color: #EC5242;
 }
 
 .foot span {
@@ -586,7 +607,7 @@ hr {
 }
 
 .slidingMenu ul li:hover {
-  background-color: coral;
+  background-color: #EC5242;
   color: white !important;
 }
 
@@ -606,21 +627,29 @@ hr {
 }
 
 .aboutPage h2 {
-  font-family: "Poppins", sans-serif;
-  font-size: 21px;
-  font-weight: 500;
-  margin-top: 50px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  font-weight: 900;
+  color: transparent;
+  background-image: url("../Images/noiseporn-JNuKyKXLh8U-unsplash.JPG");
+  background-size: cover;
+  background-clip: content-box;
+  -webkit-background-clip: text;
   padding: 20px;
-  border: 4px solid black;
+  padding-left: 20%;
 }
 
 .aboutPara {
   font-family: "Poppins", sans-serif;
   font-size: 13px;
   font-weight: 500;
-  margin: 30px 50px;
+  margin: 5px 50px;
   padding: 30px;
   border: 1px solid #d3d3d3;
+  width: 65%;
+  margin-left: 20%;
+
 }
 
 .contactSec {
@@ -657,8 +686,14 @@ hr {
   display: flex;
   align-items: center;
   padding: 15px;
-  border: 1px solid coral;
+  border: 1px solid #EC5242;
   margin-top: 15px;
+}
+
+.customBackground {
+  background-image: url("../Images/Hero.png");
+  background-repeat: repeat;
+  background-size: cover;
 }
 
 .customBackground span,
@@ -756,13 +791,13 @@ h4 {
     justify-content: center;
   }
 
+  .homepage {
+    padding-left: 2px;
+  }
+
   .SpeakerPort img {
     position: relative;
     left: 20%;
-  }
-
-  #picdec {
-    display: none;
   }
 }
 
@@ -776,7 +811,7 @@ h4 {
   }
 
   .aboutContainer {
-    padding: 0;
+    padding: 50px;
   }
 
   #text {
@@ -796,6 +831,26 @@ h4 {
 
   .homepage {
     background-image: url("../Images/istockphoto-1155705366-1024x1024.jpg");
+  }
+
+  .Statement {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    width: 70%;
+    height: auto;
+    padding: 15px;
+    border-radius: 10px;
+    background: rgba(253, 251, 251, 0.85);
+  }
+
+  .homedate {
+    background: rgba(253, 251, 251, 0.85);
+    width: fit-content;
+  }
+
+  .venue {
+    color: #EC5242;
+    background: rgba(253, 251, 251, 0.85);
   }
 
   .header1 {
@@ -873,9 +928,21 @@ h4 {
 
 @media screen and (max-width: 768px) {
   .featureContainer {
-    padding: 0 65px;
+    padding: 50px 65px;
   }
 
+  .homepage h1 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 37px;
+    font-weight: 900;
+    color: transparent;
+    background-image: url("../Images/noiseporn-JNuKyKXLh8U-unsplash.JPG");
+    background-size: cover;
+    background-clip: content-box;
+    -webkit-background-clip: text;
+  }
+  
   #picdec {
     width: 100px;
   }
@@ -900,13 +967,19 @@ h4 {
   .imageArea2 {
     width: 80%;
   }
+
+  .aboutContainer {
+    padding-left: 7%;
+    padding-right: 7%;
+  }
 }
 
 @media screen and (min-width: 768px) {
   .featureContainer {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 7px;
+    padding-left: 10%;
+    padding-right: 10%;
   }
 
   .SpeakerPort.hiddenPort {
