@@ -78,18 +78,18 @@ Clone this repository to your desired folder:
 
 cd my-folder
 
-git clone [repo-link](https://github.com/Kwaku28/architectural-summit.git)
+git clone [repo-link](https://github.com/Mike47ip/JavascriptCapstone.git)
 
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Lawrence Amoafo**
+👤 **Michael Darkwah**
 
-- GitHub: [@Kwaku28](https://github.com/Kwaku28)
-- Twitter: [@kwakuamoafo](https://twitter.com/kwakuamoafo)
-- LinkedIn: [lawrenceamoafo](https://linkedin.com/in/lawrenceamoafo)
-
+- GitHub: [@githubhandle](https://github.com/Mike47ip)
+- Twitter: [@twitterhandle](https://twitter.com/Mikepee47)
+- LinkedIn: [@LinkedIn](https://www.linkedin.com/in/michael-darkwah-81a039141/)
+- Facebook: [@facebook](https://web.facebook.com/profile.php?id=100089565852279)
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
@@ -122,5 +122,5 @@ Original design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/Kwaku28/architectural-summit/blob/main/LICENSE) licensed.
+This project is [MIT](https://github.com/Mike47ip/JavascriptCapstone/blob/main/LICENSE) licensed.
 
