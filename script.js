@@ -91,7 +91,7 @@ const loadSpeakers = () => {
       ><br />
       <hr />
       <br />
-      <span
+      <span class="exp"
         >${speaker.experience}</span
       >
     </div>

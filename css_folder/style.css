@@ -127,7 +127,7 @@ body {
   font-family: 'Lato', sans-serif;
   font-weight: 700;
   font-size: 13px;
-  padding: 10px 4px;
+  padding: 10px 10px;
   height: 50px;
   margin-top: 10px;
   color: coral;
@@ -253,14 +253,18 @@ body {
 }
 
 .programContainer h2 {
-  font-family: "Poppins", sans-serif;
-  font-size: 17px;
-  font-weight: 500;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  font-weight: 900;
   display: flex;
   justify-content: center;
   text-align: center;
   color: white;
+   background-image: url("../Images/aboutback.png");
+  background-size: 300px;
+  background-repeat: repeat;
   background-color: #272A31;
+  background-position: 50% 0;
   width: 100%;
   height: 70px;
   padding-top: 37px;
@@ -315,9 +319,9 @@ body {
 }
 
 #text {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 18px;
-  font-weight: 300;
+  font-weight: 700;
   text-align: center;
   padding: 30px 10px;
   width: 30%;
@@ -325,9 +329,9 @@ body {
 }
 
 #passage {
-  font-family: "Poppins", sans-serif;
-  font-size: 15px;
-  font-weight: 300;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
   text-align: left;
   width: 56%;
   color: aliceblue;
@@ -339,7 +343,7 @@ body {
   width: 70%;
   height: 80px;
   padding: 10px;
-  background-color: rgb(248, 102, 17);
+  background-color: #EC5242;
   text-decoration: none;
   border: 0;
   margin-top: 25px;
@@ -362,9 +366,9 @@ body {
 .featuredSpeakers h3 {
   display: flex;
   justify-content: center;
-  font-family: "Poppins", sans-serif;
-  font-size: 21px;
-  font-weight: 500;
+  font-family: 'Lato', sans-serif;
+  font-size: 27px;
+  font-weight: 900;
   padding: 50px 50px 8px;
 }
 
@@ -422,8 +426,16 @@ body {
 }
 
 .portTitle {
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
   color: #EC5242;
   font-style: italic;
+}
+
+.exp {
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  font-size: larger;
 }
 
 .seeMore {
@@ -491,7 +503,7 @@ hr {
 }
 
 .Partners h4 {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 21px;
   font-weight: 500;
   display: flex;
@@ -547,6 +559,34 @@ hr {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
+}
+
+.footerContainerAbout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #272A31;
+  margin-top: 80px;
+  text-align: center;
+  height: 170px;
+}
+
+.footerContainerAbout div span {
+  font-family: 'Lato', sans-serif;
+  font-weight: 600;
+  font-size: 35px;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+#footer-dateabout {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  color: white;
 }
 
 .foot {
@@ -560,6 +600,16 @@ hr {
   color: #EC5242;
 }
 
+#naveicon2 {
+  font-size: 55px;
+  color: #EC5242;
+}
+
+#naveicon3 {
+  font-size: 36px;
+  color: white;
+}
+
 .foot span {
   font-family: "Belanosima", sans-serif;
   font-weight: 600;
@@ -571,7 +621,7 @@ hr {
 }
 
 #footer-date {
-  font-family: "Belanosima", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-weight: 300;
   font-size: 15px;
 }
@@ -596,7 +646,7 @@ hr {
 }
 
 .slidingMenu ul li {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 40px;
   font-weight: 500;
   padding: 20px;
@@ -637,11 +687,11 @@ hr {
   background-clip: content-box;
   -webkit-background-clip: text;
   padding: 20px;
-  padding-left: 20%;
+  padding-left: 10%;
 }
 
 .aboutPara {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 13px;
   font-weight: 500;
   margin: 5px 50px;
@@ -652,7 +702,7 @@ hr {
 }
 
 .contactSec {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 13px;
   font-weight: 500;
   display: flex;
@@ -661,9 +711,7 @@ hr {
   align-items: center;
   text-align: center !important;
   color: #4d4545;
-  width: 70%;
   padding: 20px;
-  margin-left: 16%;
 }
 
 .News {
@@ -675,7 +723,7 @@ hr {
   font-family: "Poppins", sans-serif;
   font-size: 15px;
   font-weight: 500;
-  background-color: #d3d3d3;
+  background-color: #f5f5f5;
   padding: 30px;
   margin-top: 15px;
 }
@@ -683,13 +731,24 @@ hr {
 .News p {
   font-family: "Belanosima", sans-serif;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 50px;
   color: rgb(134, 127, 124);
   display: flex;
   align-items: center;
   padding: 15px;
   border: 1px solid #EC5242;
   margin-top: 15px;
+}
+
+#Newspara {
+  font-family: 'Lato', sans-serif;
+  font-size: large;
+  border: none;
+  padding-top: 0;
+}
+
+.News h4 {
+  color: #d3d3d3;
 }
 
 .customBackground {
@@ -706,14 +765,14 @@ h4 {
   align-items: center;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
-  padding: 5px;
+  padding: 12px;
 }
 
-.News h4 {
-  font-family: "Poppins", sans-serif;
-  font-size: 18px;
-  font-weight: 500;
-  padding: 26px;
+.News h3 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 26px 26px 0;
 }
 
 .customBackground h4 {
@@ -912,7 +971,7 @@ h4 {
   #passage {
     padding: 0;
     text-align: center;
-    font-size: 10.5px;
+    font-size: 11.5px;
   }
 
   #icon {
