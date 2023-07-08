@@ -497,6 +497,7 @@ hr {
   height: auto;
   padding: 20px;
   margin-top: 50px;
+  position: relative;
 }
 
 .closeMenu img {
@@ -559,6 +560,7 @@ hr {
   margin-top: 80px;
   text-align: center;
   height: 170px;
+  color: white;
 }
 
 .foot span {
@@ -600,11 +602,16 @@ h4 {
   padding: 10px;
 }
 
-#footer-dateabout {
+#forabout {
   font-family: 'Lato', sans-serif;
-  font-weight: 300;
+  font-weight: 600;
   font-size: 20px;
+}
+
+div#footer\ fordesk {
   color: white;
+  font-family: 'Lato', sans-serif;
+  font-weight: 600;
 }
 
 .foot {
@@ -762,6 +769,7 @@ h4 {
   background-image: url("../Images/Hero.png");
   background-repeat: repeat;
   background-size: cover;
+  background-color: #d3d3d3;
 }
 
 .News h3 {
@@ -838,6 +846,11 @@ h4 {
   font-weight: 500;
   text-decoration: none;
   color: white;
+}
+
+.desktop {
+  position: relative;
+  margin-bottom: -7%;
 }
 
 @media screen and (max-width: 392px) {
