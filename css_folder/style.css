@@ -106,7 +106,11 @@ body {
   background-color: transparent;
 }
 
-.mobilebutton button a {
+.mobilebutton:hover {
+  background-color: coral;
+}
+
+.Join a {
   font-family: 'Lato', sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -114,11 +118,7 @@ body {
   color: white;
 }
 
-.mobilebutton:hover {
-  background-color: coral;
-}
-
-.Join a {
+.mobilebutton button a {
   font-family: 'Lato', sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -593,7 +593,7 @@ hr {
   text-align: center;
   height: auto;
   color: white;
-  padding-top: 0; 
+  padding-top: 0;
 }
 
 .foot span {
