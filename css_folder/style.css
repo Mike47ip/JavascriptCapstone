@@ -337,10 +337,13 @@ body {
 }
 
 .Join {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   width: 70%;
   height: 80px;
   padding: 10px;
-  background-color: #ec5242;
   text-decoration: none;
   border: 0;
   margin-top: 25px;
@@ -557,10 +560,11 @@ hr {
   justify-content: center;
   align-items: center;
   background-color: #272a31;
-  margin-top: 80px;
+  margin-top: 48px;
   text-align: center;
-  height: 170px;
+  height: auto;
   color: white;
+  padding-top: 0; 
 }
 
 .foot span {
@@ -850,7 +854,12 @@ div#footer\ fordesk {
 
 .desktop {
   position: relative;
-  margin-bottom: -7%;
+  margin-bottom: -8%;
+}
+
+.desktop h4 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
 }
 
 @media screen and (max-width: 392px) {
@@ -874,6 +883,18 @@ div#footer\ fordesk {
 @media screen and (max-width: 400px) {
   .homepage {
     align-items: start;
+  }
+
+  .News p {
+    font-size: 25px;
+  }
+
+  #naveicon2 {
+    font-size: 20px;
+  }
+
+  .aboutPage h2 {
+    font-size: 35px;
   }
 
   #icon {
@@ -1040,6 +1061,10 @@ div#footer\ fordesk {
   .aboutContainer {
     padding-left: 7%;
     padding-right: 7%;
+  }
+
+  .footerContainerAbout {
+    display: none;
   }
 }
 
