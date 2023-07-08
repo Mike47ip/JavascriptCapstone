@@ -87,6 +87,37 @@ body {
   color: #272a31;
 }
 
+.mobilebutton {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  width: 75%;
+  height: auto;
+  margin: 15px 0 23px 0;
+  cursor: pointer;
+  background-color: #ec5242;
+}
+
+.mobilebutton button {
+  text-decoration: none;
+  padding: 24px;
+  border: none;
+  width: 75%;
+  background-color: transparent;
+}
+
+.mobilebutton button a {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+}
+
+.mobilebutton:hover {
+  background-color: coral;
+}
+
 .Join a {
   font-family: 'Lato', sans-serif;
   font-weight: 700;
@@ -245,9 +276,11 @@ body {
   align-items: center;
   width: 100vw;
   height: auto;
-  background-image: url("../Images/aboutback.png");
+  background-image: url(../Images/aboutback.png);
+  background-size: 300px;
   background-repeat: repeat;
   background-color: #272a31;
+  background-position: 50% 0;
 }
 
 .programContainer h2 {
@@ -348,10 +381,6 @@ body {
   border: 0;
   margin-top: 25px;
   margin-bottom: 25px;
-}
-
-.Join:hover {
-  background-color: rgb(245, 163, 12);
 }
 
 .featuredSpeakers {
@@ -878,6 +907,10 @@ div#footer\ fordesk {
     position: relative;
     left: 20%;
   }
+
+  .homedate {
+    font-size: 20px;
+  }
 }
 
 @media screen and (max-width: 400px) {
@@ -1066,6 +1099,10 @@ div#footer\ fordesk {
   .footerContainerAbout {
     display: none;
   }
+
+  .Join {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -1090,6 +1127,10 @@ div#footer\ fordesk {
 
   #picdec {
     width: 120px;
+  }
+
+  .mobilebutton {
+    display: none;
   }
 }
 
